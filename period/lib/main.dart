@@ -22,11 +22,11 @@ class MyApp extends StatelessWidget {
           accentColorBrightness: Brightness.dark,
           textTheme: TextTheme(
 //            headline: TextStyle(fontSize: 72.0, fontWeight: FontWeight.bold),
-            title: TextStyle(
+            subtitle1: TextStyle(
                 fontSize: 18.0,
                 fontStyle: FontStyle.italic,
                 color: Color(0xff120023)),
-            body1: TextStyle(fontFamily: 'Montserrat'),
+            bodyText1: TextStyle(fontFamily: 'Montserrat'),
           ),
         ),
         home: new RootPage(auth: new Auth()));
